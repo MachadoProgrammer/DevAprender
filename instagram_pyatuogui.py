@@ -6,7 +6,7 @@ from time import sleep
 while True:
     webbrowser.open_new_tab('https://www.instagram.com')
     sleep(1)
-    # 2 - Entrar com meu usuário
+    # 2 - Entrar com o meu usuário
     pyautogui.click(1539, 362, duration=1)
     sleep(1)
     pyautogui.typewrite('')

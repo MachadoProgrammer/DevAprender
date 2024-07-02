@@ -15,7 +15,7 @@ def click(x, y):
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0)
 
 
-while keyboard.is_pressed('1') == False:
+while not keyboard.is_pressed('1'):
     if pyautogui.pixelMatchesColor(1364, 310, (0, 0, 0)):
         click(1364, 310)
     if pyautogui.pixelMatchesColor(1435, 306, (0, 0, 0)):
